@@ -24,6 +24,7 @@ jobs:
         with:
           # GitHub username to generate the animation for
           github_user_name: ${{ github.repository_owner }}
+          years: 2024,2025 
           # Define the output files and their configurations
           outputs: |
             dist/github-snake.svg
